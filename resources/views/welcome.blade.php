@@ -525,7 +525,7 @@
         &copy; 2017 peace_data. All rights reserved.
     </div>
 
-    <script src="js_1.js" type="text/javascript"></script>
+    <script src="{{URL::to('js/js_1.js')}}" type="text/javascript"></script>
             </div>
         <!-- </div> -->
     </body>
