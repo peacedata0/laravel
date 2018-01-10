@@ -1,0 +1,253 @@
+html {
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: 'Handlee', cursive;
+font-size: 18pt;
+color: #a89b9b;
+background-color: #e6e6e6;
+padding: 10px;
+margin: 0;
+}
+
+h1 {
+font-size: 15pt;
+color: #62d520;
+text-align: center;
+padding: 18px 0 18px 0;
+margin: 0 0 10px 0;
+}
+
+h1 span {
+border: 4px dashed #11ca1a;
+padding: 10px;
+}
+
+p {
+color: #e6e6e6;
+padding: 0;
+margin: 0;
+}
+
+.img-circle {
+border: 3px solid white;
+border-radius: 50%;
+}
+
+.section {
+background-color: rgb(58, 55, 55);
+padding: 15px;
+margin-bottom: 10px;
+border-radius: 10px;
+}
+
+#header {
+/*background-image: url("http://assets2.bigthink.com/system/idea_thumbnails/50636/size_1024/shutterstock_132998150-1.jpg?1368541535");*/
+/*background-image: url("http://www.rxperformancemotors.com/wp-content/uploads/2015/09/cropped-header11.jpg");*/
+/*background-image: url("http://thisisstory.com/wp-content/uploads/2016/06/Access-Granted-Header.jpg");*/
+/*background-image: url("https://www.hastac.org/sites/default/files/upload/images/post/css_code.jpg");*/
+/*background-image: url("https://1.bp.blogspot.com/-qXEc_XBhbjo/UsmhP8CAiDI/AAAAAAAALhw/OFYSD4U7n9g/s1600/Screen+Shot+2014-01-05+at+19.14.12.png");*/
+/*background-image: url("https://3.bp.blogspot.com/-3ZV097iaNJo/UkMANq-imiI/AAAAAAAALd4/z1ohKEI6Ikk/s1600/Screen+Shot+2013-09-25+at+5.15.36+PM.png");*/
+/*background-image: url("https://www.hastac.org/sites/default/files/upload/images/post/css_code.jpg");*/
+background-image: url("https://3.bp.blogspot.com/-WdaQZTp_Drc/WCiBhDmJSbI/AAAAAAAABZ0/8E-fO0lyp2gkKN6817LNG0_diMO-5c0oACLcB/w1200-h630-p-k-no-nu/hack-like-pro-metasploit-for-aspiring-hacker-part-8-setting-up-fake-smb-server-capture-domain-passwords.1280x600.jpg");
+/*background-image: url("https://video-images.vice.com/articles/589b938d47f11020ddd723a8/lede/1486594966397-pl.jpeg?crop=1xw:0.8426966292134831xh;center,center&resize=0:*");*/
+/*background-image: url("http://www.galawool.ca/wp-content/uploads/2015/10/cropped-header1.jpg");*/
+/*background-image: url("https://www.elegantthemes.com/blog/wp-content/uploads/2014/02/security.jpg");*/
+/*background-image: url("http://www.yubico.com/wp-content/uploads/2012/09/YubiKey-+-computer-header1.jpg");*/
+/*background-image: url("https://www.sololearn.com/Uploads/header.jpg");*/
+/* background-image: url("https://cs9.pikabu.ru/post_img/big/2017/05/04/9/1493907718152429384.jpg"); */
+background-size: cover;
+border-radius: 10px;
+margin-bottom: 5px;
+//    position: fixed;
+}
+
+#header img {
+display: block;
+width: 120px;
+height: 120px;
+margin: auto;
+}
+
+#header p {
+font-size: 40pt;
+/*color: lightslategrey;*/
+/*color: #3b464c;*/
+color: #a89b9b;
+padding-top: 5px;
+margin: 0;
+font-weight: bold;
+text-align: center;
+}
+
+.quote {
+font-size: 15pt;
+text-align: right;
+margin-top: 10px;
+}
+
+table {
+width: 100%;
+}
+
+table,
+th,
+td {
+border: 2px solid #f16e22;
+/* border-collapse: 2px; */
+text-align: center;
+table-layout: fixed;
+}
+
+.selected {
+background-color: #11ca1a;
+font-weight: bold;
+color: white;
+}
+
+li {
+margin-bottom: 15px;
+font-weight: bold;
+}
+
+progress {
+width: 70%;
+height: 20px;
+color: #11ca1a;
+background: #efefef;
+}
+
+progress::-webkit-progress-bar {
+background: #afaaaa;
+}
+
+progress::-webkit-progress-value {
+background: #f16e22;
+}
+
+progress::-moz-progress-bar {
+color: #3fb6b2;
+background: #f16e22;
+}
+
+iframe,
+audio {
+display: block;
+margin: 0 auto;
+border: 3px solid #3fb6b2;
+}
+
+hr {
+border: 0;
+height: 1px;
+background: #f36f48;
+}
+
+form {
+text-align: center;
+margin-top: 0;
+}
+
+.submit {
+background-color: #f16e22;
+padding: 12px 45px;
+border-radius: 5px;
+cursor: pointer;
+color: #ffffff;
+border: none;
+outline: none;
+margin: 0;
+font-weight: bold;
+}
+
+.submit:hover {
+background-color: #7e3810;
+}
+
+textarea {
+height: 100px;
+}
+
+input,
+textarea {
+margin-bottom: 10px;
+font-size: 11pt;
+padding: 15px 10px 10px;
+border: 1px solid #cecece;
+background-color: #efefef;
+color: #787575;
+border-radius: 5px;
+width: 70%;
+outline: none;
+}
+
+.face {
+transform: scale(0.4);
+margin: 0 auto;
+display: block;
+margin-top: -35px;
+margin-bottom: -25px;
+}
+
+#contacts img {
+height: 50px;
+width: 50px;
+margin-left: 7px;
+margin-right: 7px;
+}
+
+#contacts a {
+text-decoration: none;
+}
+
+#contacts img:hover {
+opacity: 0.8;
+}
+
+#contacts {
+text-align: center;
+}
+
+.copyright {
+font-size: 8pt;
+text-align: right;
+padding-bottom: 10px;
+color: grey;
+}
+
+/* .full-height {
+    height: 100vh;
+}
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.position-ref {
+    position: relative;
+} */
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+/* .content {
+    text-align: center;
+}
+.title {
+    font-size: 84px;
+} */
+.links > a {
+    color: white;
+    padding: 0 25px;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* .m-b-md {
+    margin-bottom: 30px;
+} */
