@@ -4,7 +4,6 @@ var client = new INTITAClient({
     key: API_KEY,
 });
 
-
 //----------------------------------------------------------------------------------
 client.getUserDetails(function(error, data) {
     // debugger;
@@ -66,15 +65,14 @@ client.getUserCoursesAndModules(function(error, data) {
         var blocks = document.getElementsByClassName('section');
         for (var i = 0; i < blocks.length; i++) {
 
-
             blocks[i].getElementsByTagName('h1')[0].onclick = function() {
                 var blockContent = this.parentNode.getElementsByClassName('accordion')[0];
                 if (blockContent.className == 'accordion') {
                     blockContent.className = 'accordion expand';
-                    console.log(blockContent.className);
+//                    console.log(blockContent.className);
                 } else {
                     blockContent.className = 'accordion';
-                    console.log(blockContent.className);
+//                    console.log(blockContent.className);
                 }
             }
         }
