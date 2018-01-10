@@ -176,13 +176,16 @@
                     <progress min="0" max="100" value="15"></progress>
                 </li>
                 <li>PHP <br/>
-                    <progress min="0" max="100" value="5"></progress>
+                    <progress min="0" max="100" value="10"></progress>
                 </li>
                 <li>Python <br/>
                     <progress min="0" max="100" value="5"></progress>
                 </li>
                 <li>C/C++ <br/>
                     <progress min="0" max="100" value="20"></progress>
+                </li>
+                <li>Java <br/>
+                    <progress min="0" max="100" value="5"></progress>
                 </li>
                 <li>C# <br/>
                     <progress min="0" max="100" value="5"></progress>
