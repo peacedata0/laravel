@@ -61,7 +61,7 @@ background-image: url("https://3.bp.blogspot.com/-WdaQZTp_Drc/WCiBhDmJSbI/AAAAAA
 background-size: cover;
 border-radius: 10px;
 margin-bottom: 5px;
-//position: fixed; 
+//position: fixed;
 }
 
 #header img {
@@ -240,7 +240,7 @@ color: grey;
     font-size: 84px;
 } */
 .links > a {
-    color: white;
+    color: #a89b9b;
     padding: 0 25px;
     font-size: 22px;
     font-weight: 600;
