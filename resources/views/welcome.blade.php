@@ -286,7 +286,7 @@
     <!-- Contacts section end -->
 
     <div class="copyright">
-        &copy; 2017 peace_data. All rights reserved.
+        &copy; 2018 peace_data. All rights reserved.
     </div>
 
     <script src="{{URL::to('js/js_1.js')}}" type="text/javascript"></script>
