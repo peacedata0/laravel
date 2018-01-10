@@ -168,7 +168,7 @@
                 <progress min="0" max="100" value="15"></progress>
             </li>
             <li>PHP <br/>
-                <progress min="0" max="100" value="5"></progress>
+                <progress min="0" max="100" value="15"></progress>
             </li>
             <li>Python <br/>
                 <progress min="0" max="100" value="5"></progress>
@@ -180,7 +180,7 @@
                 <progress min="0" max="100" value="5"></progress>
             </li>
             <li>SQL <br/>
-                <progress min="0" max="100" value="10"></progress>
+                <progress min="0" max="100" value="15"></progress>
             </li>
             <li>Networks <br/>
                 <progress min="0" max="100" value="30"></progress>
