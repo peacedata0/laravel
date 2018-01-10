@@ -52,39 +52,45 @@
     <!-- About Me section start -->
     <div class="section">
         <h1><span>About Me</span></h1>
-        <p>
-            <h3>
-                Hey! I'm <strong><span class="name"></span></strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop
-                websites and use my coding skills to get a better job. And I learned it all at <strong>IT-Academy</strong> where they build your self-esteem and keep you motivated. These courses for <span id="about_courses"></span>. Join me in this rewarding
-                journey. You'll have fun, get help, and learn along the way!<br>
-                <br>
-                <strong>My Interests: <span id="interests"></span></strong><br>
+        <div class="accordion">
+            <p>
+                <h3>
+                    Hey! I'm <strong><span class="name"></span></strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop
+                    websites and use my coding skills to get a better job. And I learned it all at <strong>IT-Academy</strong> where they build your self-esteem and keep you motivated. This courses for <span id="about_courses"></span>. Join me in this rewarding
+                    journey. You'll have fun, get help, and learn along the way!<br>
+                    <br>
+                    <strong>My Interests: <span id="interests"></span></strong><br>
 
-            </h3>
-        </p>
-        <h3>
-            <p class="quote">
-                "Declare variables, not war"
+                </h3>
             </p>
-        </h3>
+            <h3>
+                <p class="quote">
+                    "Declare variables, not war"
+                </p>
+            </h3>
+        </div>
+
     </div>
     <!-- About Me section end -->
 
     <!-- About Courses section start -->
     <div class="section">
         <h1><span>About Courses</span></h1>
-        <p>
-            <h3>
-                <strong><span id="modules"></span></strong>
-            </h3>
-        </p>
+        <div class="accordion">
+            <p>
+                <h3>
+                    <strong><span id="modules"></span></strong>
+                </h3>
+            </p>
+        </div>
     </div>
     <!-- About Courses section end -->
 
     <!-- My Schedule section start -->
     <div class="section">
         <h1><span>My Coding Schedule</span></h1>
-        <table>
+        <div class="accordion">
+            <table>
             <tr>
                 <th>Day</th>
                 <th>Mon</th>
@@ -150,6 +156,7 @@
             </tr>
 
         </table>
+        </div>
     </div>
     <!-- My Schedule section end -->
 
@@ -157,47 +164,49 @@
     <!-- My Skills section start -->
     <div class="section">
         <h1><span>My Skills</span></h1>
-        <ul>
-            <li>HTML <br/>
-                <progress min="0" max="100" value="20"></progress>
-            </li>
-            <li>CSS <br/>
-                <progress min="0" max="100" value="10"></progress>
-            </li>
-            <li>JavaScript <br/>
-                <progress min="0" max="100" value="15"></progress>
-            </li>
-            <li>PHP <br/>
-                <progress min="0" max="100" value="15"></progress>
-            </li>
-            <li>Python <br/>
-                <progress min="0" max="100" value="5"></progress>
-            </li>
-            <li>C/C++ <br/>
-                <progress min="0" max="100" value="20"></progress>
-            </li>
-            <li>C# <br/>
-                <progress min="0" max="100" value="5"></progress>
-            </li>
-            <li>SQL <br/>
-                <progress min="0" max="100" value="15"></progress>
-            </li>
-            <li>Networks <br/>
-                <progress min="0" max="100" value="30"></progress>
-            </li>
-            <li>Linux Debian/Arch <br/>
-                <progress min="0" max="100" value="40"></progress>
-            </li>
-            <li>System Administrating <br/>
-                <progress min="0" max="100" value="30"></progress>
-            </li>
-            <li>Penetration Testing <br/>
-                <progress min="0" max="100" value="40"></progress>
-            </li>
-            <li>World Of Warcraft <br/>
-                <progress min="0" max="100" value="130"></progress>
-            </li>
-        </ul>
+        <div class="accordion">
+            <ul>
+                <li>HTML <br/>
+                    <progress min="0" max="100" value="20"></progress>
+                </li>
+                <li>CSS <br/>
+                    <progress min="0" max="100" value="10"></progress>
+                </li>
+                <li>JavaScript <br/>
+                    <progress min="0" max="100" value="15"></progress>
+                </li>
+                <li>PHP <br/>
+                    <progress min="0" max="100" value="5"></progress>
+                </li>
+                <li>Python <br/>
+                    <progress min="0" max="100" value="5"></progress>
+                </li>
+                <li>C/C++ <br/>
+                    <progress min="0" max="100" value="20"></progress>
+                </li>
+                <li>C# <br/>
+                    <progress min="0" max="100" value="5"></progress>
+                </li>
+                <li>SQL <br/>
+                    <progress min="0" max="100" value="10"></progress>
+                </li>
+                <li>Networks <br/>
+                    <progress min="0" max="100" value="30"></progress>
+                </li>
+                <li>Linux Debian/Arch <br/>
+                    <progress min="0" max="100" value="40"></progress>
+                </li>
+                <li>System Administrating <br/>
+                    <progress min="0" max="100" value="30"></progress>
+                </li>
+                <li>Penetration Testing <br/>
+                    <progress min="0" max="100" value="40"></progress>
+                </li>
+                <li>World Of Warcraft <br/>
+                    <progress min="0" max="100" value="130"></progress>
+                </li>
+            </ul>
+        </div>
     </div>
     <!-- My Skills section end -->
 
@@ -205,7 +214,9 @@
     <!-- Media section start -->
     <div class="section">
         <h1><span>My Media</span></h1>
-        <iframe width="854" height="480" src="https://www.youtube.com/embed/jSJr3dXZfcg" frameborder="0" gesture="media" allowfullscreen></iframe>
+        <div class="accordion">
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/jSJr3dXZfcg" frameborder="0" gesture="media" allowfullscreen></iframe>
+        </div>
     </div>
     <!-- Media section end -->
 
@@ -213,7 +224,8 @@
     <div class="section">
         <h1><span>Leave Me a Message</span></h1>
 
-        <svg class="face" height="100" width="100">
+        <div class="accordion">
+            <svg class="face" height="100" width="100">
                 <circle cx="50" cy="50" r="50" fill="#FDD835"/>
                 <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
                 <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
@@ -221,19 +233,20 @@
                 <circle cx="70" cy="30" r="5" fill="#000000"/>
             <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none"/>
             </svg>
-        <form>
-            <input name="name" placeholder="Name" type="text" required /><br/>
-            <input name="email" placeholder="Email" type="email" required /><br/>
-            <textarea name="message" placeholder="Message" required></textarea>
-            <input type="submit" value="SEND" class="submit" />
-        </form>
+            <form>
+                <input name="name" placeholder="Name" type="text" required /><br/>
+                <input name="email" placeholder="Email" type="email" required /><br/>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <input type="submit" value="SEND" class="submit" />
+            </form>
+        </div>
     </div>
     <!-- Form section end -->
 
     <!-- Contacts section start -->
     <div class="section" id="contacts">
         <h1><span>Contact Or Follow Me</span></h1>
-        <div>
+        <div class="accordion">
             <h3>
                 <strong><span class="name"></span></strong>
                 <strong><span id="surname"></span></strong><br>

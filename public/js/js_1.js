@@ -62,6 +62,23 @@ client.getUserCoursesAndModules(function(error, data) {
     });
 
     });
+    window.onload = function() {
+        var blocks = document.getElementsByClassName('section');
+        for (var i = 0; i < blocks.length; i++) {
+
+
+            blocks[i].getElementsByTagName('h1')[0].onclick = function() {
+                var blockContent = this.parentNode.getElementsByClassName('accordion')[0];
+                if (blockContent.className == 'accordion') {
+                    blockContent.className = 'accordion expand';
+                    console.log(blockContent.className);
+                } else {
+                    blockContent.className = 'accordion';
+                    console.log(blockContent.className);
+                }
+            }
+        }
+    };
 // });
 // console.log();
 // client.getUserCoursesAndModules(myID, function(error, data) {
