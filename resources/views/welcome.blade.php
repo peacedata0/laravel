@@ -218,7 +218,8 @@
     <div class="section">
         <h1><span>My Media</span></h1>
         <div class="accordion">
-            <iframe width="854" height="480" src="https://www.youtube.com/embed/jSJr3dXZfcg" frameborder="0" gesture="media" allowfullscreen></iframe>
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/q15hJ3EWqZY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="854" height="480" src="https://www.youtube.com/embed/xuJdq11lMZ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
     <!-- Media section end -->
