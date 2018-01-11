@@ -48,9 +48,9 @@ p {
 }
 
 .section > .accordion {
-    -webkit-transition: all ease-in-out 0.3s;
-  -o-transition: all ease-in-out 0.3s;
-  transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.8s;
+  -o-transition: all ease-in-out 0.8s;
+  transition: all ease-in-out 0.8s;
     max-height: 0;
     overflow: hidden;
 }
