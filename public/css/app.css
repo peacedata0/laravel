@@ -9,12 +9,18 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-  font-family: sans-serif;
+  font-family: 'Handlee', cursive;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 
 body {
+  font-family: 'Handlee', cursive;
+  font-size: 18pt;
+  color: #a89b9b;
+  font-weight: bold;
+  background-color: #e6e6e6;
+  padding: 10px;
   margin: 0;
 }
 
@@ -1419,7 +1425,7 @@ textarea {
 }
 
 a {
-  color: #3097D1;
+  color: #a89b9b;
   text-decoration: none;
 }
 
@@ -8349,4 +8355,3 @@ button.close {
     display: none !important;
   }
 }
-
