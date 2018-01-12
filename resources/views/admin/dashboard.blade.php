@@ -38,7 +38,7 @@
     </a>
   </div>
   <div class="col-sm-6">
-    <a class="btn btn-block btn-default" href="#">Create Material</a>
+    <a class="btn btn-block btn-default" href="{{route('admin.article.create')}}">Create Material</a>
     <a class="list-group-item" href="#">
       <h4 class="list-group-item-heading">Material One</h4>
       <p class="list-group-item-text">

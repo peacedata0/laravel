@@ -19,6 +19,7 @@
         "vue": "^2.5.7"
     },
     "dependencies": {
-        "grunt": "^1.0.1"
+        "grunt": "^1.0.1",
+        "sweetalert": "^2.1.0"
     }
 }
