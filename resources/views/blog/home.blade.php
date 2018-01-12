@@ -46,9 +46,9 @@
         <div class="accordion">
             <p>
                 <h3>
-                    Hey! I'm <strong><span class="name"></span></strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop
-                    websites and use my coding skills to get a better job. And I learned it all at <strong>IT-Academy</strong> where they build your self-esteem and keep you motivated. These courses are for <span id="about_courses"></span>. Join me in this rewarding
-                    journey. You'll have fun, get help, and learn along the way!<br>
+                    <strong>Hey! I'm <span class="name"></span>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop
+                    websites and use my coding skills to get a better job. And I learned it all at IT-Academy where they build your self-esteem and keep you motivated. These courses are for <span id="about_courses"></span>. Join me in this rewarding
+                    journey. You'll have fun, get help, and learn along the way!</strong><br>
                     <br>
                     <strong>My Interests: <span id="interests"></span></strong><br>
 

@@ -12,6 +12,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <script src="https://intita.com/api/dist/intita-api-client.min.js" type="text/javascript"></script>
+    <!-- <link href="{{ URL::to('css/css_1.css') }}" rel="stylesheet" type="text/css"> -->
+
     <!-- Font Awesome -->
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -88,6 +91,7 @@
     </div>
 
     <!-- Scripts -->
+    <script src="{{URL::to('js/js_1.js')}}" type="text/javascript"></script>
     <script src="{{ asset('/vendor/unisharp/laravel-ckeditor/ckeditor.js') }}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
