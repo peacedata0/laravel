@@ -1,5 +1,5 @@
 @foreach($categories as $category_list)
-  <option value="{{$category_list or ""}}"
+  <option value="{{$category_list->id or ""}}"
   @isset($category->id)
 
     @if($category->parent_id == $category_list->id)
