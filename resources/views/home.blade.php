@@ -20,4 +20,7 @@
         </div>
     </div>
 </div>
+<img id="avatar" alt="" class="img-circle">
+<script src="{{URL::to('js/js_1.js')}}" type="text/javascript"></script>
+
 @endsection
