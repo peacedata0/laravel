@@ -1,7 +1,7 @@
 @extends('admin.layouts.app_admin')
 
 @section('content')
-
+<div class="section">
 <div class="container">
   @component('admin.components.breadcrumb')
     @slot('title') Edit Category @endslot
@@ -19,6 +19,7 @@
     @include('admin.categories.partials.form')
 
   </form>
+</div>
 </div>
 
 @endsection

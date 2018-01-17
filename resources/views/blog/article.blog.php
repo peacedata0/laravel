@@ -5,6 +5,7 @@
 @section('title', $article->meta_description)
 
 @section('content')
+<div class="section">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -15,5 +16,6 @@
 
     </div>
 
+  </div>
   </div>
 @endsection

@@ -2,6 +2,7 @@
 
 @section('content')
 
+<div class="section">
 <div class="container">
   @component('admin.components.breadcrumb')
     @slot('title') Create Category @endslot
@@ -18,5 +19,5 @@
 
   </form>
 </div>
-
+</div>
 @endsection

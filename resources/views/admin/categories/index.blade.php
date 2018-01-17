@@ -2,6 +2,7 @@
 
 @section('content')
 
+<div class="section">
 <div class="container">
 
   @component('admin.components.breadcrumb')
@@ -51,5 +52,5 @@
   </tfoot>
 </table>
 </div>
-
+</div>
 @endsection

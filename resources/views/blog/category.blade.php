@@ -4,6 +4,7 @@
 
 @section('content')
 
+<div class="section">
 <div class="container">
   @forelse ($articles as $article)
   <div class="row">
@@ -17,6 +18,7 @@
   @endforelse
 
   {{$articles->links()}}
+</div>
 </div>
 
 @endsection

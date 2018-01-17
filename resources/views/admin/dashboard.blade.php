@@ -1,6 +1,7 @@
 @extends('admin.layouts.app_admin')
 
 @section('content')
+<div class="section">
 <div class="container">
   <div class="row">
     <div class="col-sm-3">
@@ -27,6 +28,8 @@
       </div>
 
     </div>
+  </div>
+  <div class="section">
 <div class="row">
   <div class="col-sm-6">
     <a class="btn btn-block btn-default" href="{{route('admin.category.create')}}">Create Category</a>
@@ -55,5 +58,6 @@
 </div>
   </div>
 
+</div>
 </div>
 @endsection
